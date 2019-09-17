@@ -1,0 +1,101 @@
+
+/**
+ * Write a description of class Shape here.
+ *
+ * @author (your name)
+ * @version (a version number or a date)
+ */
+
+abstract class Shape
+{
+    double dim1,dim2;
+    double dim3;
+    Shape(double dim1,double dim2,double dim3)
+    {
+      this.dim1=dim1;
+      this.dim2=dim2;
+      this.dim3=dim3;
+    }
+    Shape(double dim1,double dim2)
+    {
+      this.dim1=dim1;
+      this.dim2=dim2;
+      
+    }
+    abstract void area();
+    abstract void circumference();
+}
+class Rect extends Shape
+{
+    Rect(double dim1,double dim2)
+    {
+        super(dim1,dim2);
+    }
+    //@override
+    void area()
+    {
+        double result=dim1*dim2;
+        System.out.println("Rect area:" +result);  
+    }
+    void circumference()
+    {
+        double circumResult=2*(dim1+dim2);
+        System.out.println("Circumference of Rectangle= "+ circumResult);
+    }
+}
+class Triangle extends Shape
+{
+    Triangle(double dim1,double dim2,double dim3)
+    {
+        super(dim1,dim2,dim3);
+    }
+    //@override
+    void area()
+    {
+        double result=0.5*dim1*dim2;
+        System.out.println("Triangle area:" +result);  
+    }
+    void circumference()
+    {
+        double circumResult=dim1+dim2+dim3;
+        System.out.println("Circumference of Triangle= "+ circumResult);
+    }
+}
+class Circle extends Shape
+{
+    Circle(double dim1)
+    {
+        super(dim1,dim1);
+    }
+    //@override
+    void area()
+    {
+        double result=3.1416*dim1*dim1;
+        System.out.println("Circle area:" +result);  
+    }
+    void circumference()
+    {
+        double circumResult=2*3.1416*dim1;
+        System.out.println("Circumference of Circle= "+ circumResult);
+    }
+}
+public class Test
+{
+    public static void main(String[] abc)
+    {
+        Shape sp;
+        sp=new Rect(10.0,20.0);
+        sp.area();
+        sp.circumference();
+        
+        sp=new Triangle(10.0,20.0,30.0);
+        sp.area();
+        sp.circumference();
+        
+        sp=new Circle(10.0);
+        sp.area();
+        sp.circumference();
+    }
+}
+
+

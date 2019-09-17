@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Test
+comment1.params=dim1\ dim2
+comment1.target=void\ area(double,\ double)
+comment2.params=abc
+comment2.target=void\ main(java.lang.String[])
+numComments=3

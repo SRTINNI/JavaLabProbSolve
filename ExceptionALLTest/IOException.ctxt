@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=IOException
+comment0.text=\ Signals\ that\ an\ I/O\ exception\ of\ some\ sort\ has\ occurred.\ This\ class\ is\ the\ \r\ngeneral\ class\ of\ exceptions\ produced\ by\ failed\ or\ interrupted\ I/O\ operations.
+comment1.params=
+comment1.target=IOException()
+comment1.text=Constructs\ an\ (@\ code\ IOException)\ with\ (@code\ null)\ as\ its\ error\ detail\ message.
+numComments=2

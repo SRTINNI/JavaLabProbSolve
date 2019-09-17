@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=EsceptionThrows
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ EsceptionThrows\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=age
+comment1.target=void\ validate(int)
+numComments=2

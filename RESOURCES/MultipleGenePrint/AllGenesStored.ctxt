@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=AllGenesStored
+comment1.params=dnaStr\ startIndex\ stopCodon
+comment1.target=int\ findStopCodon(java.lang.String,\ int,\ java.lang.String)
+comment2.params=dna\ where
+comment2.target=java.lang.String\ findGene(java.lang.String,\ int)
+comment3.params=dna
+comment3.target=edu.duke.StorageResource\ getAllGenes(java.lang.String)
+comment4.params=
+comment4.target=void\ testOn()
+comment5.params=
+comment5.target=void\ test()
+comment5.text=public\ void\ test(){\r\n\ \ \ \r\n\ \ \ \ \ \ \ System.out.println("1st\ test");\r\n\ \ \ \ \ \ \ testOn("ATGATCTAATTTATGCTGCAACGGTGAAGA");\r\n\ \ \ \ \ \ \ System.out.println("2nd\ test");\r\n\ \ \ \ \ \ \ testOn("");\r\n\ \ \ \ \ \ \ System.out.println("3rd\ test");\r\n\ \ \ \ \ \ \ testOn("ATGATCATAAGAAGATAATAGAGGGCCATGTAA");\r\n\ \ \ }\ \ \ \r\n\ \ \ \r\n\ \ \ public\ void\ testOn(String\ dna){\r\n\ \ \ \r\n\ \ \ \ \ \ \ System.out.println("Testing\ getAllGenes\ on\ "\ +\ dna);\r\n\ \ \ \ \ \ \ StorageResource\ genes\ \=\ getAllGenes(dna);\r\n\ \ \ \ \ \ \ for(String\ g\:\ genes.data()){\r\n\ \ \ \ \ \ \ \ \ \ \ System.out.println(g);\r\n\ \ \ \ \ \ \ }\r\n\ \ \ }\r\n
+numComments=6

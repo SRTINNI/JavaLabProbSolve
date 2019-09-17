@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=EOFException
+comment0.text=\ This\ exception\ is\ mainly\ used\ by\ data\ input\ streams\ to\ signal\ end\ of\ stream.\ Note\r\n\ \ \ taht\ many\ other\ input\ operations\ return\ a\ special\ value\ on\ end\ of\ stream\ than\r\nthrowing\ an\ exception.
+comment1.params=
+comment1.target=EOFException()
+comment1.text=\ Constructs\ an\ <code>\ EOFException\ with\ </code>\ with\ \ <code>null</code>\ as\ \r\nits\ error\ detail\ message.
+numComments=2

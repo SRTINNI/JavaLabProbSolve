@@ -1,0 +1,75 @@
+
+/**
+ * Write a description of class MyArithematicClass here.
+ *
+ * @author (your name)
+ * @version (a version number or a date)
+ */
+import java.util.Scanner;
+public class MyArithematicClass
+{
+    private double x;
+    private double y;
+    
+    MyArithematicClass(){
+    
+        this.x=10.0;
+        this.y=15.5;
+        Scanner s=new Scanner(System.in);
+        this.x=s.nextDouble();
+        this.y=s.nextDouble();
+    }
+    
+     MyArithematicClass(double x,double y){
+        
+         this.x=x;
+         this.y=y;
+        }
+     
+    public double MyAdd(){
+    
+        return x+y;
+    }
+    
+    public double MySub()
+    {
+        return x-y;
+    }
+    
+    public double MyMult(){
+    
+        return x*y;
+        
+    }
+    
+    public double MyDiv(){
+    
+        return x/y;
+    }
+    
+   /* public void inputFromUser()
+    {
+        Scanner s=new Scanner(System.in);
+        this.x=s.nextDouble();
+        this.y=s.nextDouble();
+    }*/
+    public static void main(String[] args)
+    {
+        MyArithematicClass defObj=new MyArithematicClass();
+        MyArithematicClass setVal=new MyArithematicClass(20,30);
+        System.out.println("x="+defObj.x+" y="+defObj.y+" sum="+defObj.MyAdd());
+        System.out.println("x="+setVal.x+" y="+setVal.y+" sum="+setVal.MyAdd());
+        
+        
+        System.out.println("x="+defObj.x+" y="+defObj.y+" sub="+defObj.MySub());
+        System.out.println("x="+setVal.x+" y="+setVal.y+" sub="+setVal.MySub());
+        
+        System.out.println("x="+defObj.x+" y="+defObj.y+" mult="+defObj.MyMult());
+        System.out.println("x="+setVal.x+" y="+setVal.y+" mult="+setVal.MyMult());
+        
+        System.out.println("x="+defObj.x+" y="+defObj.y+" div="+defObj.MyDiv());
+        System.out.println("x="+setVal.x+" y="+setVal.y+" div="+setVal.MyDiv());
+    }
+    
+    
+}

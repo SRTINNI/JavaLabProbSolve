@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=ArithmeticException
+comment0.text=\ {@code\ ArithmeticExcetion}\ objects\ may\ be\ constructed\ by\ the\ virtual\ machine\r\n\ \ \ as\ if\ {@linkplain\ Throwable\#Throwable(String,\ Throwable,\ boolean,\ boolean)\ supperession\r\nwere\ disabled\ and/or\ the\ stack\ trace\ was\ not\ writable}.
+comment1.params=s
+comment1.target=ArithmeticException(java.lang.String)
+comment1.text=Constructs\ an\ {@code\ ArithmeticException}\ with\ no\ detail\ message.
+numComments=2
